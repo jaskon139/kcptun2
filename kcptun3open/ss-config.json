@@ -1,0 +1,8 @@
+{
+    "server":"127.0.0.1",
+    "server_port":5388,
+    "local_port":5080,
+    "password":"idocovNuf",
+    "timeout":60,
+    "method":"chacha20-ietf-poly1305"
+}
