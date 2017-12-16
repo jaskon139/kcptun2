@@ -1,0 +1,50 @@
+Sat Dec 16 14:37:23 2017 OpenVPN 2.2.2 Win32-MSVC++ [SSL] [LZO2] [PKCS11] built on Dec 15 2011
+Sat Dec 16 14:37:23 2017 NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+Sat Dec 16 14:37:23 2017 Control Channel Authentication: tls-auth using INLINE static key file
+Sat Dec 16 14:37:23 2017 Outgoing Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Dec 16 14:37:23 2017 Incoming Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Dec 16 14:37:23 2017 LZO compression initialized
+Sat Dec 16 14:37:23 2017 Control Channel MTU parms [ L:1604 D:212 EF:112 EB:0 ET:0 EL:0 ]
+Sat Dec 16 14:37:23 2017 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sat Dec 16 14:37:23 2017 Data Channel MTU parms [ L:1604 D:1450 EF:104 EB:135 ET:0 EL:0 AF:3/1 ]
+Sat Dec 16 14:37:23 2017 Local Options hash (VER=V4): 'c19f87b0'
+Sat Dec 16 14:37:23 2017 Expected Remote Options hash (VER=V4): 'eda38e81'
+Sat Dec 16 14:37:23 2017 Attempting to establish TCP connection with 192.168.56.1:11194
+Sat Dec 16 14:37:23 2017 TCP connection established with 192.168.56.1:11194
+Sat Dec 16 14:37:23 2017 TCPv4_CLIENT link local: [undef]
+Sat Dec 16 14:37:23 2017 TCPv4_CLIENT link remote: 192.168.56.1:11194
+Sat Dec 16 14:37:27 2017 TLS: Initial packet from 192.168.56.1:11194, sid=dd56998a 8f399021
+Sat Dec 16 14:37:27 2017 VERIFY OK: depth=1, /CN=ChangeMe
+Sat Dec 16 14:37:27 2017 Validating certificate key usage
+Sat Dec 16 14:37:27 2017 ++ Certificate has key usage  00a0, expects 00a0
+Sat Dec 16 14:37:27 2017 VERIFY KU OK
+Sat Dec 16 14:37:27 2017 Validating certificate extended key usage
+Sat Dec 16 14:37:27 2017 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Sat Dec 16 14:37:27 2017 VERIFY EKU OK
+Sat Dec 16 14:37:27 2017 VERIFY OK: depth=0, /CN=server
+Sat Dec 16 14:37:27 2017 Data Channel Encrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Sat Dec 16 14:37:27 2017 Data Channel Encrypt: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Dec 16 14:37:27 2017 Data Channel Decrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Sat Dec 16 14:37:27 2017 Data Channel Decrypt: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Dec 16 14:37:27 2017 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Sat Dec 16 14:37:27 2017 [server] Peer Connection Initiated with 192.168.56.1:11194
+Sat Dec 16 14:37:29 2017 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Sat Dec 16 14:37:29 2017 PUSH: Received control message: 'PUSH_REPLY,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.0.2 255.255.255.0'
+Sat Dec 16 14:37:29 2017 OPTIONS IMPORT: timers and/or timeouts modified
+Sat Dec 16 14:37:29 2017 OPTIONS IMPORT: --ifconfig/up options modified
+Sat Dec 16 14:37:29 2017 OPTIONS IMPORT: route-related options modified
+Sat Dec 16 14:37:29 2017 ROUTE default_gateway=192.168.1.1
+Sat Dec 16 14:37:29 2017 TAP-WIN32 device [Ethernet 3] opened: \\.\Global\{77AE30B9-ED45-4EA0-AAE4-5E10B4EF63B9}.tap
+Sat Dec 16 14:37:29 2017 TAP-Win32 Driver Version 9.21 
+Sat Dec 16 14:37:29 2017 TAP-Win32 MTU=1500
+Sat Dec 16 14:37:29 2017 Set TAP-Win32 TUN subnet mode network/local/netmask = 10.8.0.0/10.8.0.2/255.255.255.0 [SUCCEEDED]
+Sat Dec 16 14:37:29 2017 Notified TAP-Win32 driver to set a DHCP IP/netmask of 10.8.0.2/255.255.255.0 on interface {77AE30B9-ED45-4EA0-AAE4-5E10B4EF63B9} [DHCP-serv: 10.8.0.254, lease-time: 31536000]
+Sat Dec 16 14:37:29 2017 NOTE: FlushIpNetTable failed on interface [14] {77AE30B9-ED45-4EA0-AAE4-5E10B4EF63B9} (status=5) : Access is denied.  
+Sat Dec 16 14:37:34 2017 TEST ROUTES: 1/1 succeeded len=1 ret=1 a=0 u/d=up
+Sat Dec 16 14:37:34 2017 C:\WINDOWS\system32\route.exe ADD 172.17.0.0 MASK 255.255.0.0 10.8.0.1
+Sat Dec 16 14:37:34 2017 ROUTE: route addition failed using CreateIpForwardEntry: Access is denied.   [status=5 if_index=14]
+Sat Dec 16 14:37:34 2017 Route addition via IPAPI failed [adaptive]
+Sat Dec 16 14:37:34 2017 Route addition fallback to route.exe
+The requested operation requires elevation.
+Sat Dec 16 14:37:34 2017 ERROR: Windows route add command failed [adaptive]: returned error code 1
+Sat Dec 16 14:37:34 2017 Initialization Sequence Completed
